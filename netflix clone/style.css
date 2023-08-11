@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    color: #fff;
+    background-color: black;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9) , rgb(19 20 21 / 47%) ,rgb(0 0 0 / 60%),rgba(0, 0, 0, 0.9)),url(images/IN-en-20230130-popsignuptwoweeks-perspective_alpha_website_large\ \(1\).jpg);    background-size: cover;
+    background-position: center;
+    border-bottom: 8px solid #222;
+    padding: 10px 8%;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.logo{    margin-left: -65px;
+    width: 170px;
+    margin-top: 7px;
+    cursor: pointer;
+    padding-left: -24px;
+
+}
+nav button{
+    border: 0;
+    outline: 0;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 12px;
+    margin-right: -65px;
+    height: 33px;
+    cursor: pointer;
+    background-color: #e50914;
+    float: right;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+
+
+
+}
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    float: left;
+    margin-right: 18px;
+    background: transparent;
+    border: 1px solid #333;
+    background: rgba(0,0,0,.4);
+    padding: 7px 10px;
+
+}
+.language-btn img {
+      width: 10px;
+      margin-left: 10px;
+    
+}
+.header-content{
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+    
+
+}
+.header-content h1{
+    font-size: 4rem;
+    line-height: 70px;
+    font-weight: bold;
+    max-width: 650px;
+    margin-top: -14%;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-inline-start: 0px;
+    margin-block-end: 0.67em;
+    text-align: center;
+    margin-inline-end: 0px;
+    font-size: 63px;
+
+}
+.header-content h2{
+    font-weight: 500;
+    margin: 20px;
+    margin-top: -31px;
+    margin-bottom: 30px;
+    font-size: 1.625rem;
+}
+.header-content p{
+    font-size: 1.2rem;
+    max-width: none;
+    padding-bottom: 0px;
+    margin-bottom: -5px;
+}
+
+ 
+
+.email-signup{
+    background: #fff;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+    height: 73px;
+    width: 114%;
+    margin-left: -7%;
+
+}
+.email-signup input{
+   
+        flex: 1;
+        border: 0;
+        outline: 0;
+        border: black;
+        font-size: 16px;
+        margin-left: 20px;
+        color: #000000;
+        font-size: 16px;
+        height: 73px;
+}
+
+.email-signup2{
+    background: #fff;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+    overflow: hidden;
+    height: 73px;
+    width: 64%;
+    margin-left: 19%;
+    margin-bottom: 7%;
+
+}
+.email-signup2 input{
+   
+        flex: 1;
+        border: 0;
+        outline: 0;
+        border: black;
+        font-size: 16px;
+        margin-left: 20px;
+        color: #000000;
+        font-size: 16px;
+        height: 73px;
+}
+
+.email-signup2 button{ 
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 24px 15px;
+    height: 73px;
+    width: 35%;
+    padding-right: 31px;
+    font-size: 1.875rem;}
+ 
+.email-signup button{ 
+    background:#db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 24px 15px;
+    height: 73px;
+    width: 35%;
+    padding-right: 31px;
+    font-size: 1.875rem;
+
+}
+
+
+/*features*/
+
+.features{
+    margin-top: -16px;
+    margin-bottom: -23px;
+    padding: 92px 12%;
+    padding-bottom: 8%;
+    font-size: 22px;
+    border-bottom: 8px solid rgb(34, 34, 34);
+}
+.features3{
+    margin-top: 53px;
+    margin-bottom: -31px;
+    padding: 92px 12%;
+    padding-bottom: 9%;
+    font-size: 22px;
+    border-bottom: 8px solid rgb(34, 34, 34);
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+
+}
+.text-col{
+    margin-top: 0%;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    flex-basis: 50%;
+    padding-left: 68px;
+    margin-bottom: 60px;
+}
+.text-col2{
+    margin-top: 0%;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    flex-basis: 50%;
+    padding-left: 68px;
+    margin-bottom: 60px;
+}.text-col3{
+    margin-top: 0%;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    flex-basis: 50%;
+    padding-left: 68px;
+    margin-bottom: 60px;
+}
+.text-col4{
+    margin-top: 0%;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    flex-basis: 50%;
+    padding-left: 68px;
+    margin-bottom: 60px;
+}
+
+
+
+
+.text-col h1{
+    margin-left: -39px;
+    
+    font-size: 3.125rem;
+
+}
+.text-col3 h1{
+    margin-left: -39px;
+    
+    font-size: 3.125rem;
+
+}
+
+.text-col h3 {
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: -21px;
+    margin-top: 27px;
+    margin-left: -39px;
+}
+.text-col3 h3 {
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: -48px;
+    margin-top: 18px;
+    margin-left: -39px;
+    padding-bottom: -1px;
+}
+    .img-col .gif{
+        height: 40px;
+        width: 118px;
+        margin-top: 100px;
+        margin-left: 335px;
+    }
+
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    position: absolute;
+    display: block;
+    width: 36%;
+    padding-left: 58px;
+    
+    object-fit: cover;
+    margin-top: 10;
+    margin-top: -3%;
+}
+.img-col2 img{
+    position: absolute;
+    display: block;
+    width: 36%;
+    padding-left: 58px;
+    mix-blend-mode: screen;
+    object-fit: cover;
+    margin-top: 10;
+    margin-top: -14%;
+}
+.img-col3 img{
+    position: absolute;
+    display: block;
+    width: 36%;
+    padding-left: 58px;
+    
+    object-fit: cover;
+    margin-top: 10;
+    margin-top: -9%;
+}
+.img-col4 img{
+    position: absolute;
+    display: block;
+    width: 36%;
+    padding-left: 58px;
+    mix-blend-mode: screen;
+    object-fit: cover;
+    margin-top: 10;
+    margin-top: -3%;
+
+}
+.features h2{
+ font-size: 50px;
+ font-weight: 600;
+ margin-bottom: 20px;
+
+}
+.video{
+    
+    margin-top: -75px;
+    margin-left: 21%;
+    width: 62%;
+
+}
+.video2{
+    margin-top: -107px;
+    margin-left: 32%;
+    width: 62%;
+
+}
+.img-col img {
+    
+        margin-top: -150px;
+    
+
+}
+
+
+/*.......faq........*/
+
+
+.faq{
+padding: 10px 12%;
+text-align: center;
+font-size: 18px;
+margin-top: -6%;
+}
+.faq h1{
+    font-size: 250%;
+    line-height: 1.1;
+    margin-bottom: -1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.accordion{
+
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accordion li{
+    
+    width: 100%;
+    list-style: none;
+    padding: 5px;
+
+}
+.accordion li label{
+
+    display: flex;
+    align-items: center;
+    padding: 23px;
+    font-size: 27px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 39px;
+    width: 111%;
+    margin-left: -5%;
+
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+   
+    background: #303030;
+    width: 111%;
+    margin-left: -37px;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .content{
+
+    max-height: 600px;
+    padding: 30px 20px;
+
+
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+
+}
+.faq .email-signup{
+    max-width: 600px;
+    margin: 20px auto;
+
+}
+.faq h3{
+    font-size: 19.2px;
+    max-width: none;
+    margin-bottom: -28px;
+    padding-bottom: 20px;
+    font-weight: 100;
+    margin-left: 14px;
+}
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 8px solid rgb(34, 34, 34);;
+    color: #777;
+}
+.footer p{
+   font-size: 1em;
+   color: #737373;
+   font-weight: 400;
+   margin-bottom: 30px;
+   
+}
+.footer .col{
+flex-basis: 25%;
+flex-grow: 1;
+margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #737373;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}.footer .language-btn{
+    color: #d8d8d8;
+    padding: 10px 20px;
+    border-radius: 3px;
+    padding-right: 26px;
+}
+.copyright{
+   font-size: 14px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
